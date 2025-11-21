@@ -446,7 +446,7 @@ Having issues? Open a GitHub issue or check the documentation.
 
 ## 📋 Roadmap & TODO
 
-See [GitHub Issues](https://github.com/yourusername/portfolio-sdk/issues) for the complete TODO list, including:
+See [GitHub Issues](https://github.com/Kvndoshi/portfolio-sdk/issues) for the complete TODO list, including:
 - OpenRouter conversation memory improvements
 - More chat UI templates
 - Vanilla JavaScript implementation
