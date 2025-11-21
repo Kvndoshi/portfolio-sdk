@@ -1,0 +1,51 @@
+{
+  "name": "portfoliosdk",
+  "version": "1.0.0",
+  "description": "A clean SDK for adding LLM-powered chat with Supermemory to your portfolio",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "import": "./dist/server.mjs",
+      "require": "./dist/server.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "portfolio",
+    "llm",
+    "supermemory",
+    "chat",
+    "ai"
+  ],
+  "author": "Kevin",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.45",
+    "@ai-sdk/google": "^2.0.40",
+    "@ai-sdk/openai": "^2.0.68",
+    "@anthropic-ai/sdk": "^0.32.0",
+    "ai": "^5.0.95",
+    "supermemory": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
